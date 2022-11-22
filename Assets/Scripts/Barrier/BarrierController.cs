@@ -16,7 +16,7 @@ public class BarrierController : MonoBehaviour
         
     }
 
-    private void Collisi(Collider other)
+    private void Collision(Collider other)
     {
         if (other.gameObject.CompareTag("Collected") || other.gameObject.CompareTag("Chibi"))
         {
