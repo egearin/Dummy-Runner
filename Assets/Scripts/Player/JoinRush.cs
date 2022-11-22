@@ -24,12 +24,10 @@ public class JoinRush : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("zklxmgfkasmfka");
             MoveListObjects();
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
             MoveOrigin();
         }
     }
